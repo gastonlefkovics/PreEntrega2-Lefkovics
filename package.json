@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2-guevara",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikshu038/PreEntrega2---Guevara.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikshu038/PreEntrega2---Guevara/issues"
+  },
+  "homepage": "https://github.com/ikshu038/PreEntrega2---Guevara#readme",
+  "description": ""
+}

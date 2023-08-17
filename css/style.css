@@ -1,0 +1,95 @@
+img {
+  height: fit-content;
+}
+
+.nav__img {
+  width: 7rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  color: #162a1e;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #e3bf9b;
+  border-bottom: 1px solid #1f2722;
+}
+
+.main-section__title--h1,
+.main-section__title--p {
+  font-family: "PT Sans", sans-serif;
+}
+
+.main-section__title--h1 {
+  font-size: 3.4rem;
+}
+
+.main-section__title--p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  background-color: #714e2c;
+  margin-bottom: -0.1rem;
+  padding: 2rem;
+}
+
+.secondary-section__title {
+  margin-bottom: 4rem;
+}
+
+.secondary-section--h3 {
+  margin-bottom: 0;
+  height: 1rem;
+}
+
+.secondary-section--P {
+  height: 0rem;
+  color: #714e2c;
+}
+
+.secondary-section__article--img {
+  max-width: 450px;
+  border-radius: 2rem;
+}
+
+.secondary-section__article--p {
+  font-family: "Bellota Text", cursive;
+}
+
+.footer {
+  background-color: #714e2c;
+  margin-top: 5rem;
+}
+
+.footer__img {
+  width: 7rem;
+}
+
+.footer__p {
+  font-family: "Bellota Text", cursive;
+}
+
+.fa-brands {
+  color: #000000;
+}
+.fa-brands:hover {
+  color: #1f2722;
+}
+
+.yerbas-cards-container, .mates-cards-container, .bombillas-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+@media (width > 600px) {
+  .main {
+    padding: 7rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
